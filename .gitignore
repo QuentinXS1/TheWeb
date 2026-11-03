@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Local data and configuration
+data/*.local.*
+data/keys.js
+.env
+.env.*
+*.token
+
+# Language and editor artifacts
+__pycache__/
+*.py[cod]
+*.bak
+*.lock
+.DS_Store
